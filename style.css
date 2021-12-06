@@ -1,27 +1,71 @@
-:root{
-  
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body
+{
+  max-width: 1200px;
+  background-color: lightblue;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  align-items: center;
+  justify-content: center;
 }
+
+#birth-date
+{
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#lucky-no
+{
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  cursor: pointer;
+  justify-content: center;
+
+}
+label{
+  text-align: center;
+  display:block;
+}
+
+#output
+{
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+
 h1{
   text-align:center;
-  background-color: darkgreen;
+  background-color: darkblue;
 }
 .container
 {
-  width: 500px;
-  margin: auto;
+  
+  margin-left: auto;
+  margin-right: auto;
   
 }
-input,label
-{
-  display:block;
-  margin-bottom: .5rem;
-  
-  
-}
-button{
+
+#check-button{
+  display: block;
+  padding: 0.5rem;
   margin-bottom: 1rem;
   border-bottom-left-radius: 0.5px; 
   margin-right: 100px;
+  border-radius: 00.5rem;
 }
 textarea 
 {

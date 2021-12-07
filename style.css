@@ -3,38 +3,43 @@
 body
 {
   max-width: 1200px;
-  background-color: lightblue;
+  background-color: lightgrey;
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
   font-size: large;
   align-items: center;
   justify-content: center;
-}
+  }
 
 #birth-date
 {
   align-items: center;
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.7rem;
   margin-bottom: 1rem;
   text-align: center;
+  background-color: white;
+  
 }
 
 #lucky-no
 {
   align-items: center;
   width: 100%;
-  padding: 0.5rem;
+  padding: .7rem;
   margin-bottom: 1rem;
   text-align: center;
   cursor: pointer;
   justify-content: center;
-
+  background-color: white;
 }
+
 label{
-  text-align: center;
+  align-items: left;
+
   display:block;
+  font-size: 1.5rem;
 }
 
 #output
@@ -49,26 +54,27 @@ label{
 
 h1{
   text-align:center;
-  background-color: darkblue;
+  background-color: darkgray;
+  padding: 1rem 2rem;
+
 }
-.container
+/* .container
 {
   
   margin-left: auto;
   margin-right: auto;
   
-}
+} */
 
 #check-button{
   display: block;
   padding: 0.5rem;
   margin-bottom: 1rem;
   border-bottom-left-radius: 0.5px; 
-  margin-right: 100px;
+  margin-right: auto;
+  margin-left: auto;
   border-radius: 00.5rem;
-  align-items: center;
+  background-color: darkgray;
+  
 }
-textarea 
-{
-  width: 500px;
-}
+

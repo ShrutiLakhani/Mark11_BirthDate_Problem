@@ -66,6 +66,7 @@ h1{
   border-bottom-left-radius: 0.5px; 
   margin-right: 100px;
   border-radius: 00.5rem;
+  align-items: center;
 }
 textarea 
 {
